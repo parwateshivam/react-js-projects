@@ -1,37 +1,13 @@
-.container{
+.container {
   width: 100vw !important;
 
-  .scope{
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 3px;
-
-    .scope-container{
-      display: flex;
-      gap: 3px;
-
-      span{
-        background-color:aquamarine;
-        padding: 2px;
-        border-radius: 3px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
-  }
-
-  .grid-container{
+  .grid-container {
+    width: 90%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 1rem;
-
-    .card{
-      border: 1px solid black;
-      padding: 1rem;
-      border-radius: 1rem;
-      max-width: 300px;
-    }
+    padding: 1rem;
   }
 }
